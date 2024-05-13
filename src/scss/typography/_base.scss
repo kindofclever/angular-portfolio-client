@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+
+html {
+  @apply font-sans text-licorice;
+  font-weight: 450;
+}
+
+.h1 {
+  @apply text-h1-mobile lg:text-h1-desktop font-serif;
+}
+
+.h1-italic {
+  @apply text-h1-mobile lg:text-h1-desktop font-serif italic;
+}
+
+.h2 {
+  @apply text-h2-mobile lg:text-h2-mobile font-serif;
+}
+
+.h2-italic {
+  @apply text-h2-mobile lg:text-h2-mobile font-serif italic;
+}
+
+.title-33 {
+  @apply text-title-22-mobile lg:text-title-33-desktop uppercase;
+}
+
+.title-33-serif {
+  @apply text-title-22-serif-mobile lg:text-title-33-serif-desktop font-serif text-imperial;
+}
+
+.title-33-light {
+  @apply text-title-22-light-mobile lg:text-title-33-light-desktop font-light;
+}
+
+.body-22-serif {
+  @apply text-body-18-mobile lg:text-body-22-desktop font-serif;
+}
+
+.body-18 {
+  @apply text-body-16-mobile lg:text-body-18-desktop;
+}
+
+.body-18-semibold {
+  @apply text-body-16-mobile lg:text-body-18-desktop font-semibold;
+}
+
+.body-16 {
+  @apply text-body-14-mobile lg:text-body-16-desktop;
+}
+
+.body-16-uppercase {
+  @apply text-body-14-mobile lg:text-body-16-desktop uppercase;
+}
+
+.body-14 {
+  @apply text-body-12-mobile lg:text-body-14-desktop text-imperial;
+}
+
+.body-14-uppercase {
+  @apply text-body-12-mobile lg:text-body-14-desktop uppercase text-imperial;
+}
+
+.body-14-uppercase-header {
+  @apply text-body-12-mobile lg:text-body-14-desktop uppercase;
+}
+
+.body-14-semibold {
+  @apply text-body-12-mobile lg:text-body-14-desktop font-semibold text-imperial;
+}
+
+.body-12-small {
+  @apply text-body-10-mobile lg:text-body-12-desktop uppercase text-ash;
+}
+
+.button-14 {
+  @apply text-button-14 font-semibold uppercase;
+}
+
+.tab-14 {
+  @apply text-tab-14;
+}
+
+.link-18 {
+  @apply text-link-16-mobile lg:text-link-18-desktop text-fuchsia hover:text-imperial font-semibold;
+}
+
+.link-14-medium-uppercase {
+  @apply text-link-14 text-fuchsia hover:text-imperial font-medium uppercase;
+}
+
+
+

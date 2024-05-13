@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@import "typography/base";
+@import "components/_components-dir";
+
+body, html {
+  @apply bg-gradient-to-tl from-white to-gray-400 min-h-screen;
+}
+
+
+
