@@ -5,10 +5,8 @@
 
 @import "typography/base";
 @import "components/_components-dir";
+@import "variables.scss";
 
 body, html {
-  @apply bg-gradient-to-tl from-white to-gray-400 min-h-screen;
+  @apply bg-gradient-to-tl from-white to-candyCotton min-h-screen;
 }
-
-
-

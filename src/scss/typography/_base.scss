@@ -7,19 +7,19 @@ html {
 }
 
 .h1 {
-  @apply text-h1-mobile lg:text-h1-desktop font-serif;
+  @apply text-h1-mobile lg:text-h1-desktop font-serif text-darkPurple;
 }
 
 .h1-italic {
-  @apply text-h1-mobile lg:text-h1-desktop font-serif italic;
+  @apply text-h1-mobile lg:text-h1-desktop font-serif italic text-darkPurple;
 }
 
 .h2 {
-  @apply text-h2-mobile lg:text-h2-mobile font-serif;
+  @apply text-h2-mobile lg:text-h2-mobile font-serif text-fuchsia;
 }
 
 .h2-italic {
-  @apply text-h2-mobile lg:text-h2-mobile font-serif italic;
+  @apply text-h2-mobile lg:text-h2-mobile font-serif italic text-fuchsia;
 }
 
 .title-33 {
@@ -71,7 +71,7 @@ html {
 }
 
 .body-12-small {
-  @apply text-body-10-mobile lg:text-body-12-desktop uppercase text-ash;
+  @apply text-body-10-mobile lg:text-body-12-desktop uppercase text-candyCotton;
 }
 
 .button-14 {

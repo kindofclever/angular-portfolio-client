@@ -5,6 +5,9 @@ module.exports = {
     optimizeUniversalDefaults: true
   },
   theme: {
+    // backgroundImage: theme => ({
+    //   'custom-image': "url('./assets/images/bgImage.png')"
+    // }),
     fontFamily: {
       'sans': ['"Poppins", "Helvetica Neue", sans-serif'],
       'serif': ['"Frank Ruhl Libre", "Georgia", serif'],
@@ -54,14 +57,29 @@ module.exports = {
       },
       colors: {
         'white': '#F7F7FF',
-        'ash': '#BAD1CD',
+        'eggShell': '#F4F1DE',
+        'cinereous': '#8A716A',
+        'candyCotton': '#DAC4F7',
         'imperial': '#FB3640',
+        'darkPurple': '#331832',
         'fuchsia': '#F038FF',
         'licorice': '#230C0F',
         'black': '#1E1E1E',
       },
+      keyframes: {
+        spin: {
+          from: {
+            transform: 'rotate(0deg)',
+          },
+          to: {
+            transform: 'rotate(360deg)',
+          }
+        }
+      },
+      animation: {
+        spin: 'spin 9s linear infinite',
+        'spin-slow': 'spin 8s linear infinite', // Slow rotation
+      },
     },
   },
 };
-
-s
