@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import WelcomeContainerComponent from "./welcome-container.component";
 
-import { WelcomeContainerComponent } from './welcome-container.component';
 
 describe('WelcomeContainerComponent', () => {
   let component: WelcomeContainerComponent;
@@ -11,7 +11,7 @@ describe('WelcomeContainerComponent', () => {
       imports: [WelcomeContainerComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(WelcomeContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import {LayoutComponent} from "./frontend/layout/layout.component";
+import WelcomeContainerComponent from "./frontend/containers/welcome-container/welcome-container.component";
 
 export const routes: Routes = [{
   path: '',
@@ -11,9 +12,7 @@ export const routes: Routes = [{
     },
     {
       path: `welcome`,
-      component: LayoutComponent,
-      loadChildren: () => import('./frontend/containers/welcome-container/routes'),
-    },
+      loadComponent: () => WelcomeContainerComponent},
     {
       path: 'not-found',
       component: LayoutComponent,

@@ -5,9 +5,6 @@ module.exports = {
     optimizeUniversalDefaults: true
   },
   theme: {
-    // backgroundImage: theme => ({
-    //   'custom-image': "url('./assets/images/bgImage.png')"
-    // }),
     fontFamily: {
       'sans': ['"Poppins", "Helvetica Neue", sans-serif'],
       'serif': ['"Frank Ruhl Libre", "Georgia", serif'],

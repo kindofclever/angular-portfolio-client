@@ -1,6 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { NotFoundContainerComponent } from './not-found-container.component';
+import NotFoundContainerComponent from "./not-found-container.component";
 
 describe('NotFoundContainerComponent', () => {
   let component: NotFoundContainerComponent;
@@ -11,7 +10,7 @@ describe('NotFoundContainerComponent', () => {
       imports: [NotFoundContainerComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(NotFoundContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
