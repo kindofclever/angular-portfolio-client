@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'portfolio-about-me-container',
   standalone: true,
-  imports: [],
+  selector: 'portfolio-about-me-container',
   templateUrl: './about-me-container.component.html',
-  styleUrl: './about-me-container.component.scss'
+  styleUrl: './about-me-container.component.scss',
+  imports: []
 })
-export class AboutMeContainerComponent {
+export default class AboutMeContainerComponent {
 
 }

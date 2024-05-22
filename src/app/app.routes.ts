@@ -19,6 +19,11 @@ export const routes: Routes = [{
       loadChildren: () => import('./frontend/containers/not-found-container/routes'),
     },
     {
+      path: 'about-me',
+      component: LayoutComponent,
+      loadChildren: () => import('./frontend/containers/about-me-container/routes'),
+    },
+    {
       path: '404',
       redirectTo: 'not-found'
     },

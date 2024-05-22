@@ -75,7 +75,11 @@ module.exports = {
       },
       animation: {
         spin: 'spin 9s linear infinite',
-        'spin-slow': 'spin 8s linear infinite', // Slow rotation
+        'spin-slow': 'spin 8s linear infinite',
+        slideIn: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' }
+        }
       },
     },
   },
